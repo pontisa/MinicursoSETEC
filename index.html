@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div class="car">
+    <div class="card">
         <h1>Calculadora de Comanda</h1>
 
         <label for="itensConsumidos">Itens Consumidos</label>
@@ -33,7 +33,7 @@
             <option value="16">Massa - R$ 16,00</option>
         </select>
 
-        <button id="adicionarItem" onclick="adicionarItem()">Adicionar Item à Comanda</button>
+        <button id="adicionarItem" onclick="adicionarItemComanda()">Adicionar Item à Comanda</button>
 
         <h2>Comanda</h2>
         <div class="comanda" id="comanda">
@@ -43,8 +43,8 @@
         <input type="number" id="porcentagemGorjeta" placeholder="Informe a porcentagem de gorjeta">
 
         <div class="button-container">
-            <button id="btnCalcular" onclick="calcularComanda">Calcular</button>
-            <button id="btnLimpar" onclick="limprCampos()">Limpar</button>
+            <button id="btnCalcular" onclick="calcularComanda()">Calcular</button>
+            <button id="btnLimpar" onclick="limparCampos()">Limpar</button>
         </div>
     </div>
 
